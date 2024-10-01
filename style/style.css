@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: "Inter" , sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+}
+
+
+.logo img {
+    width: 140px;
+}
+
+.nav__items{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.header__title p:nth-child(1){
+    font-size: 72px;
+    line-height: 66px;
+    width: 959px;
+    font-family: "Inter" , sans-serif;
+    height: 258px;
+    padding-top: 105px;
+    font-weight: 600;
+}
+
+.header__title p:nth-child(2){
+    font-size: 32px;
+    line-height: 42px;
+    width: 738px;
+    font-family: "Inter" , sans-serif;
+    height: 210px;
+    padding-left: 119px;
+    padding-top: 100px;
+    
+}
+
+.header{
+display: flex;
+}
+
+.header__img{
+    padding-top: 400px;
+}
+
+
+.section{
+    display: flex;
+    padding-top: 90px;
+    gap: 25px;
+}
+
+.section__center p:nth-child(2){
+    width: 471px;
+    height: 48px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.section__center p:nth-child(3){
+    width: 494px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7E8492;
+    font-family: "Inter" , sans-serif;
+}
+
+.section__center button{
+    width: 175px;
+    height: 56px;
+    border-radius: 100px;
+    color: white;
+}
+
+.section__center button:hover{
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding-top: 200px;
+
+}
+
+.head__left p:nth-child(1){
+    width: 490px;
+    height: 134px;
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 600;
+}
+
+.head__right p:nth-child(1){
+    width: 522px;
+    height: 144px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.main__title{
+    padding-top: 100px;
+}
+
+.main__title p:nth-child(1){
+    width: 903px;
+    height: 201px;
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 600;
+}
+
+.main__title p:nth-child(2){
+    width: 534px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #7E8492;
+    padding-top: 25px;
+}
+
+.main__foot{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.main__section__title{
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+
+.main__section__title h1:nth-child(1){
+    width: 626px;
+    height: 134px;
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 600;
+}
+
+.main__section__title p:nth-child(1){
+    width: 506px;
+    height: 96px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #7E8492;
+}
+
+.main__section__title b:nth-child(1){
+    width: 161px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+footer{
+    width: 90%;
+    margin: 100px auto;
+    max-width: 1280px;
+    height: 500px;
+    font-family: "Inter" , sans-serif;
+    background-color: #1D1E25;
+    
+}
+
+
+.footer__title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 165px;
+    align-items: center;
+    padding-top: 112px;
+
+}
+
+.footer__title p:nth-child(1){
+    color: white;
+    width: 720px;
+    height: 77px;
+    line-height: 76px;
+    font-size: 64px;
+}
+
+.footer__title p:nth-child(2){
+    color: white;
+    width: 543px;
+    height: 64px;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.footer__title button{
+    width: 177px;
+    height: 56px;
+    border-radius: 100px;
+    color: white;
+}
+
+.footer__title button:hover{
+    background-color: black;
+}
+
+
+.footer__disc{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo p{
+    width: 292px;
+    height: 78px;
+    color:#7E8492;
+}
+
+.footer__disc p{
+    color:#7E8492;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.footer__disc h5{
+    color: white;
+    width: 90px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer1{
+    line-height: 38px;
+}
+
+
+
+
+
+
